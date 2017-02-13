@@ -33,3 +33,10 @@ You can install php codesniffer with these commands:
 
 	sudo pear update-channels
 	sudo pear install PHP_CodeSniffer
+	
+If you want to use it from your windows machine you should include into your composer phpcs like this.
+    "require-dev": {
+	"squizlabs/php_codesniffer": "2.*"	
+	}
+
+and everything will work automatically.
